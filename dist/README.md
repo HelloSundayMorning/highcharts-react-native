@@ -13,10 +13,10 @@ Official minimal [Highcharts](https://www.highcharts.com/) wrapper for React Nat
 1. [Getting started](#getting-started)
    1. [General prerequisites](#general-prerequisites)
    2. [Installing](#installing)
-   3. [Updating Highcharts package](#updating-highcharts=package)
+   3. [Updating Highcharts package](#updating-highcharts-package)
    4. [Usage](#usage)
       1. [Basic usage example](#basic-usage-example)
-      2. [Highcharts chart](#highchart-chart)
+      2. [Highcharts chart](#highcharts-chart)
       3. [Highcharts live data update](#highcharts-live-data-update)
       4. [Highcharts advanced series](#highcharts-advanced-series)
       5. [Optimal way to update](#optimal-way-to-update)
@@ -58,7 +58,7 @@ Packages which should be installed within your project:
 
 **_If you're using this package with Expo Tools, please make sure your `Expo SDK` version is higher than or equal to `v38.0.0`, otherwise use the `v2.2.3` version of this package, which should work from `v33.0.0`._**
 
-**_In bare React Native application you need to also install the `react-native-unimodules` package, and configure the content of `ios` and `android` build directiories like it's described [here](https://docs.expo.io/bare/installing-unimodules/#installation)._**
+**_In bare React Native application you need to also install the `expo` package, and configure the content of `ios` and `android` build directiories accordingly._**
 
 ### Installing
 
@@ -431,3 +431,7 @@ Bugfixes:
 - Docs improved
   Bugfixes:
 - [#92] - Charts sometimes fail to render
+
+### 4.0.0
+
+- Changed dependencies of `react-native-unimodules` to `expo` modules for newer react-native version (ios)
